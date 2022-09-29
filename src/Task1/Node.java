@@ -1,3 +1,5 @@
+package Task1;
+
 public class Node<T> {
     private Node prev;
     private T element;
