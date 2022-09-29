@@ -5,7 +5,7 @@ public class Grade {
     private Subject subject;
     private Student student;
 
-    public Grade(int grade, Subject subject, Student student) {
+    public Grade(final int grade, final Subject subject, final Student student) {
         this.grade = grade;
         this.subject = subject;
         this.student = student;
@@ -15,7 +15,7 @@ public class Grade {
         return grade;
     }
 
-    public void setGrade(int grade) {
+    public void setGrade(final int grade) {
         this.grade = grade;
     }
 
@@ -23,7 +23,7 @@ public class Grade {
         return subject;
     }
 
-    public void setSubject(Subject subject) {
+    public void setSubject(final Subject subject) {
         this.subject = subject;
     }
 
@@ -31,7 +31,7 @@ public class Grade {
         return student;
     }
 
-    public void setStudent(Student student) {
+    public void setStudent(final Student student) {
         this.student = student;
     }
 }

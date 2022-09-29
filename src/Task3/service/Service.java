@@ -22,8 +22,6 @@ public class Service {
         schedule.addLast(newSchedule);
     }
 
-
-
     public void printStudentSubject(final Subject subject) {
         for (Group group : subject.getGroups()){
             for (Student student : group.getStudents()){
